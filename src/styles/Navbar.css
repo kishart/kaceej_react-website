@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: 20px;
+  font-family: cursive;
 }
 
 .navbar a {
@@ -58,7 +59,8 @@
 .navbar #open .hiddenLinks {
   display: inherit;
   margin-left: 30px;
-  font-size: 40px;
+  font-size: 20px;
+  font-family: cursive;
 }
 
 .navbar #close .hiddenLinks {
