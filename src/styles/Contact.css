@@ -25,6 +25,7 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 10;
   font-size: 50px;
+  color: #e63d7d;
   margin-left: 30px;
 }
 
@@ -40,8 +41,8 @@ form input {
   height: 40px;
   width: 80%;
   border: none;
-  border-bottom: 1px solid #121619;
-  color: black;
+  border-bottom: 1px solid #000000;
+  color: #370b6d;
 }
 
 form textarea {
@@ -49,13 +50,13 @@ form textarea {
   height: 70px;
   width: 80%;
   border: none;
-  border-bottom: 1px solid #121619;
-  color: black;
+  border-bottom: 1px solid #000000;
+  color: #370b6d;
 }
 input::placeholder,
 textarea::placeholder {
   font-weight: bold;
-  color: black;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 form input:focus,
@@ -65,7 +66,8 @@ textarea:focus {
 
 form label {
   margin-top: 15px;
-  color: grey;
+  color: #370b6d;
+  font-weight: bold;
 }
 
 form button {
@@ -73,8 +75,9 @@ form button {
   width: 140px;
   height: 40px;
   border: none;
-  background-color: #121619;
+  background-color: #7f669d;
   color: whitesmoke;
+  border-radius: 20px;
   font-size: 15px;
   cursor: pointer;
 }
