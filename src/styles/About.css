@@ -26,9 +26,9 @@ p {
 }
 
 .about .aboutBottom h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 70px;
-  color: black;
+  color: #ffeadd;
   height: 160px;
   display: flex;
   justify-content: center;

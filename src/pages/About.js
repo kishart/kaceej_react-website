@@ -6,7 +6,14 @@ function About() {
     <div className="about">
       <div
         className="aboutBottom"
-        style={{ backgroundImage: `url(${CakesWallpaper})` }}
+        style={{
+          backgroundImage: `url(${CakesWallpaper})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          width: "99vw",
+          height: "100vh",
+        }}
       >
         <h1> ABOUT US</h1>
         <p>
