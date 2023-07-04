@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import Logo from "../assets/cakeLogo.png";
 import { Link } from "react-router-dom";
@@ -14,6 +15,7 @@ function Navbar() {
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <img src={Logo} />
+
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
